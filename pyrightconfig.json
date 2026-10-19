@@ -1,0 +1,11 @@
+{
+  "include": [
+    "backend"
+  ],
+  "extraPaths": [
+    "backend",
+    "backend/app",
+    "C:/Users/ASUS/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages",
+    "C:/Users/ASUS/AppData/Local/Programs/Python/Python310/Lib/site-packages"
+  ]
+}

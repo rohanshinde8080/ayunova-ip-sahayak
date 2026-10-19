@@ -1,0 +1,883 @@
+{
+  "metadata": {
+    "title": "Comprehensive Knowledge Base and Data Monograph: Ashwagandha (Withania somnifera)",
+    "version": "1.0.0",
+    "compiled_for": "IP Sakti Sahayak / Ayunova Botanical & IP Intelligence System",
+    "last_updated": "2026-09-16",
+    "data_standard": "Ayurvedic Pharmacopoeia of India (API), TKDL, USP-NF, WHO, IP, and WIPO GRATK Compliant",
+    "curated_domains": [
+      "Botanical Taxonomy & Nomenclature",
+      "Vernacular & Regional Terminology",
+      "Morphology, Anatomy & Agronomy",
+      "Classical Ayurvedic Dravyaguna & Treatises",
+      "Phytochemistry & Bioactive Marker Profiles",
+      "Modern Pharmacology & Clinical Evidence",
+      "Pharmacopoeial Standards & Quality Specifications",
+      "Intellectual Property, Patents, TKDL Prior Art & Regulatory Compliance",
+      "Classical Formulations & Commercial Standardized Extracts",
+      "Safety, Toxicology, Contraindications & Drug Interactions"
+    ]
+  },
+  "general_information": {
+    "common_name": "Ashwagandha",
+    "botanical_name": "Withania somnifera (L.) Dunal",
+    "binomial_name": "Withania somnifera",
+    "botanical_authority": "(L.) Dunal",
+    "basionym": "Physalis somnifera L. (1753)",
+    "english_names": [
+      "Indian Ginseng",
+      "Winter Cherry",
+      "Poison Gooseberry"
+    ],
+    "sanskrit_names": {
+      "devanagari": "अश्वगंधा",
+      "transliteration": "Aśvagandhā",
+      "classical_synonyms": [
+        "Hayagandhā (resembling the scent and vigor of a stallion)",
+        "Vājinī (bestower of equestrian sexual potency and stamina)",
+        "Baladā (giver of strength and endurance)",
+        "Varāhakarṇī (having leaves shaped like the ears of a boar)",
+        "Turagī (associated with horses)",
+        "Gandhapatrī (possessing aromatic foliage)",
+        "Kāmarūpiṇī (restorative of vitality and virility)",
+        "Punyā (auspicious and rejuvenating)"
+      ]
+    },
+    "etymology": "Derived from the Sanskrit words 'Ashva' (horse) and 'Gandha' (smell/odor). Reflects both the characteristic horse-like aroma of the freshly harvested root and the traditional belief that consumption bestows the physical strength, vigor, and endurance of a horse.",
+    "plant_nature": "Perennial tomentose evergreen woody sub-shrub",
+    "iucn_status": "Least Concern (LC) globally; certain wild ecotypes in arid zones vulnerable due to destructive commercial harvesting",
+    "cites_status": "Not listed under CITES appendices; governed by India's Biological Diversity Act (BDA) 2002 regarding genetic resource export and IPR"
+  },
+  "taxonomic_classification": {
+    "domain": "Eukaryota",
+    "kingdom": "Plantae (Plants)",
+    "subkingdom": "Tracheobionta (Vascular plants)",
+    "superdivision": "Spermatophyta (Seed plants)",
+    "division": "Magnoliophyta (Flowering plants / Angiosperms)",
+    "class": "Magnoliopsida (Dicotyledons)",
+    "subclass": "Asteridae",
+    "order": "Solanales",
+    "family": "Solanaceae (Nightshade / Potato family)",
+    "subfamily": "Solanoideae",
+    "tribe": "Physaleae",
+    "subtribe": "Withaninae",
+    "genus": "Withania Pauquy",
+    "species": "Withania somnifera (L.) Dunal",
+    "chromosome_number": {
+      "somatic_number": "2n = 48 (predominant cultivated tetraploid cytotype in India)",
+      "wild_diploid_number": "2n = 24 (reported in wild Mediterranean and North African accessions)",
+      "genome_size": "Approximately 880 Mb to 910 Mb"
+    },
+    "botanical_synonyms": [
+      "Physalis somnifera L. (Sp. Pl. 1: 182. 1753)",
+      "Physalis flexuosa L. (Sp. Pl. 1: 182. 1753)",
+      "Withania kansuensis Kuang & A.M.Lu",
+      "Withania microphysalis Suess."
+    ],
+    "authoritative_botanical_identifiers": {
+      "kew_powo_id": "urn:lsid:ipni.org:names:821639-1",
+      "tropicos_id": "29600171",
+      "ncbi_taxonomy_id": "126910",
+      "gbif_id": "2928929",
+      "world_flora_online_id": "wfo-0001027151"
+    }
+  },
+  "vernacular_names": {
+    "sanskrit": "Aśvagandhā, Hayagandhā, Vājinī, Baladā",
+    "hindi": "Ashwagandha, Asgandh, Punir",
+    "english": "Indian Ginseng, Winter Cherry, Withania",
+    "tamil": "Amukkuram, Amukkira kizhangu, Asuvagandi",
+    "telugu": "Pennerugadda, Dommadolu, Vajigandha, Asvagandhi",
+    "kannada": "Hiremaddina-gida, Kanchuki, Ashwagandhi, Angaravalli",
+    "malayalam": "Amukkuram, Pevetti",
+    "bengali": "Ashvagandha, Asgandh",
+    "marathi": "Asgandha, Askand, Kanchuki",
+    "gujarati": "Asan, Ghoda Asoda, Asundha",
+    "punjabi": "Asgand, Aksan",
+    "odia": "Ashwagandha",
+    "assamese": "Ashwagandha",
+    "urdu": "Asgandh Nagori",
+    "kashmiri": "Asgandh",
+    "arabic": "Kaknaj-e-Hindi, Sim-el-ferakh",
+    "persian": "Asgandh-e-Hindi, Bahman-e-Surkh (commercial substitute)",
+    "chinese": "南非醉茄 (Nánfēi Zuìqié) / 睡茄 (Shuìqié)",
+    "japanese": "アシュワガンダ (Ashuwaganda)",
+    "french": "Ashwagandha, Cerise d'hiver, Ginseng indien",
+    "german": "Schlafbeere, Indischer Ginseng, Winterkirsche",
+    "spanish": "Bufera, Ginseng indio, Hierba mora somnífera"
+  },
+  "morphology_and_botanical_anatomy": {
+    "plant_habit": "Erect, evergreen, branched, tomentose perennial undershrub reaching 30 cm to 150 cm in height.",
+    "stem_and_branches": {
+      "description": "Round, solid, woody towards the base, herbaceous and branched above; covered densely with fine stellate or branched whitish or silver-grey tomentose hairs."
+    },
+    "leaves": {
+      "arrangement": "Alternate on lower vegetative stems, opposite or sub-opposite in flowering nodes",
+      "type": "Simple, petiolate",
+      "petiole_length": "10 mm to 30 mm",
+      "blade_dimensions": "5 cm to 12 cm in length, 2.5 cm to 7 cm in breadth",
+      "shape": "Ovate to broadly elliptic or oblong-obovate",
+      "margin": "Entire to slightly repand",
+      "apex": "Subacute to obtuse",
+      "base": "Cuneate, oblique or tapering into petiole",
+      "surface": "Minutely pubescent with stellate trichomes, especially dense along the veins on the abaxial surface"
+    },
+    "inflorescence_and_flowers": {
+      "type": "Axillary, sessile or short-pedicellate fascicles / cymes bearing 3 to 6 flowers",
+      "flower_character": "Small (8–12 mm), bisexual, actinomorphic, hypogynous",
+      "calyx": "Gamosepalous, 5-lobed, green, campanulate (4–6 mm long in flower), densely stellate-tomentose; markedly accrescent in fruit",
+      "corolla": "Gamopetalous, campanulate, 5-lobed, dull greenish-yellow to pale yellow, 7–10 mm across; lobes ovate, spreading or recurved",
+      "androecium": "Stamens 5, epipetalous, inserted near base of corolla tube; filaments glabrous; anthers 1.5 mm long, yellow, dehiscing longitudinally",
+      "gynoecium": "Bicarpellary syncarpous; ovary superior, bilocular with axile placentation; ovules numerous; style single, filiform; stigma capitate, shallowly 2-lobed"
+    },
+    "fruit": {
+      "type": "Globose, smooth, fleshy berry",
+      "size": "5 mm to 8 mm in diameter",
+      "color": "Green when young, ripening to bright orange-red or scarlet",
+      "accrescent_calyx": "Completely enveloped by the inflated, membranous, papery, lantern-like accrescent calyx (15–22 mm long) with a small terminal pore"
+    },
+    "seeds": {
+      "count": "15 to 25 seeds per berry",
+      "shape": "Sub-reniform, discoid, laterally compressed",
+      "dimensions": "1.5 mm to 2.5 mm long, 1.2 mm to 1.8 mm broad",
+      "color_and_testa": "Yellowish-brown to pale brown, minutely pitted and reticulate surface",
+      "embryo": "Curved, embedded in fleshy endosperm"
+    },
+    "root_macroscopy_ashwagandha_mula": {
+      "commercial_part": "Dried mature tap roots (Ashwagandha Mula / Radix Withaniae)",
+      "shape_and_length": "Straight, unbranched or sparsely branched, conical to cylindrical taproots tapering downwards; 10 cm to 35 cm in length, 0.5 cm to 2.5 cm in thickness",
+      "external_surface": "Pale yellowish-brown to dirty greyish-white; marked by longitudinal wrinkles and faint horizontal lenticels; root scars visible",
+      "fracture": "Short, smooth, starchy, and fibrous in the outer phloem layer",
+      "cut_surface": "Shows a pale brown outer cork, narrow cream-white phloem, and broad ivory to light yellow starchy xylem core with radial vascular rays",
+      "odor": "Strong, characteristic, penetrating horse-like pungent odor",
+      "taste": "Mucilaginous, bitter, slightly acrid, followed by faint sweetness"
+    },
+    "root_microscopy_transverse_section": {
+      "cork_periderm": "Composed of 4 to 8 rows of tangentially elongated, rectangular cork cells with thin, suberized brown walls",
+      "cortex_phelloderm": "3 to 5 layers of sub-tangentially compressed parenchymatous cells containing abundant starch grains and microsphenoidal sandy crystals of calcium oxalate",
+      "secondary_phloem": "Wide zone composed of sieve tubes, companion cells, and phloem parenchyma traversed by multi-seriate phloem rays; stone cells and sclerenchymatous fibers absent",
+      "cambium": "Comprising 2 to 4 layers of thin-walled, tangentially elongated cells forming a continuous cylinder",
+      "secondary_xylem": "Broad central cylinder comprising pitted vessels, tracheids, xylem parenchyma, and multi-seriate medullary rays (2 to 4 cells wide); vessels occur singly or in small radial groups of 2 to 4 with reticulate or bordered pitted thickening",
+      "starch_grains": "Simple or compound (2 to 4 components), spherical or oval, 5 µm to 25 µm in diameter, with central distinct hilum and faint concentric striations"
+    },
+    "powder_microscopic_characteristics": {
+      "diagnostic_features": [
+        "Abundant starch grains, simple and 2–4 compound, 5–25 µm diameter",
+        "Fragments of xylem vessels with bordered pitted and reticulate thickening",
+        "Microsphenoidal sandy crystals of calcium oxalate embedded in parenchyma",
+        "Parenchyma cells filled with starch grains",
+        "Suberized rectangular cork cells in surface view showing brownish walls",
+        "Tracheids with bordered pits"
+      ]
+    }
+  },
+  "habitat_ecology_and_agronomy": {
+    "geographic_distribution": {
+      "native_regions": "Drier sub-tropical and semi-arid regions of India, Pakistan, Afghanistan, Middle East, Mediterranean Basin, and parts of East and Southern Africa",
+      "indian_states_cultivating": [
+        "Madhya Pradesh (Mandsaur, Neemuch, Manasa districts — primary hub producing renowned Nagori quality)",
+        "Rajasthan (Nagaur, Kota, Jhalawar)",
+        "Gujarat (Anand, Mehsana, Saurashtra)",
+        "Uttar Pradesh (Bundelkhand)",
+        "Punjab and Haryana",
+        "Maharashtra (Solapur, Ahmednagar)",
+        "Andhra Pradesh and Telangana"
+      ]
+    },
+    "soil_and_climate_requirements": {
+      "soil_type": "Well-drained sandy loam or light red soils rich in organic matter; sensitive to waterlogging",
+      "soil_ph": "7.5 to 8.2 (prefers slightly alkaline soils)",
+      "climate": "Semi-arid to sub-tropical dry climate with bright sunshine; annual rainfall between 500 mm and 750 mm; temperature range 20°C to 38°C",
+      "altitude": "From sea level up to 1,500 meters above sea level"
+    },
+    "cultivation_practices": {
+      "propagation": "Propagated strictly by seeds",
+      "seed_rate": "10 to 12 kg/hectare for broadcasting; 5 kg/hectare for line sowing (drilling)",
+      "sowing_time": "Late monsoon / Kharif season (July to August)",
+      "spacing": "20–25 cm between lines, thinned to 10 cm plant-to-plant after 25 days",
+      "irrigation": "Primarily rainfed; 1 or 2 protective light irrigations during prolonged winter drought",
+      "manuring": "Light application of farmyard manure (FYM 5–10 tons/ha); heavy chemical fertilization induces excessive vegetative growth at the expense of root withanolide content",
+      "crop_duration": "150 to 180 days from sowing to harvest"
+    },
+    "harvesting_and_post_harvest_processing": {
+      "harvest_maturity_indicators": "Drying of leaves and berries turning bright red/orange (January to March)",
+      "harvest_method": "Whole plants uprooted manually or inverted with country plough; roots severed 1–2 cm above root crown",
+      "post_harvest_steps": [
+        "Washing thoroughly to remove adhering soil particles",
+        "Air-drying in shade or covered sheds for 10–15 days to preserve active lactones",
+        "Transverse cutting into 7–10 cm long pieces",
+        "Manual grading based on root diameter, color, starchy texture, and breakage"
+      ],
+      "commercial_market_grades": {
+        "special_grade_nagori": "Root piece 7 cm long, diameter > 1.5 cm, smooth, solid, pure white interior, starchy, unbranched",
+        "grade_1": "Root piece 5 cm long, diameter 1.0–1.5 cm, starchy, uniform, pale white interior",
+        "grade_2": "Root piece 3–5 cm long, diameter 0.5–1.0 cm, partially fibrous",
+        "grade_3_lower": "Small, fibrous, branched, dark exterior, hollow or woody core"
+      }
+    },
+    "improved_agricultural_cultivars": [
+      {
+        "variety_name": "Jawahar Asgandh-20 (JA-20)",
+        "breeding_center": "RVSKVV, Mandsaur, Madhya Pradesh",
+        "characteristics": "High root yield (7–8 quintals dry root/ha), high total alkaloid (0.41%) and withanolide content, uniform cylindrical roots"
+      },
+      {
+        "variety_name": "Jawahar Asgandh-134 (JA-134)",
+        "breeding_center": "RVSKVV, Mandsaur, Madhya Pradesh",
+        "characteristics": "Erect bushy habit, tolerant to root rot, dry root yield 8–9 q/ha, high withanolide A"
+      },
+      {
+        "variety_name": "Pratap (RWS-1)",
+        "breeding_center": "MPUAT, Udaipur, Rajasthan",
+        "characteristics": "Suitable for Rajasthan arid soils, thick straight starchy roots, dry yield 6–7 q/ha"
+      },
+      {
+        "variety_name": "CIMAP-Chetak",
+        "breeding_center": "CSIR-CIMAP, Lucknow",
+        "characteristics": "High root biomass (12–15 q/ha), withanolide content 0.55% dry root weight"
+      },
+      {
+        "variety_name": "CIM-Pushti",
+        "breeding_center": "CSIR-CIMAP, Lucknow",
+        "characteristics": "Selected for elevated withaferin A and withanolide A concentrations in roots"
+      },
+      {
+        "variety_name": "NMITLI-101 & NMITLI-118",
+        "breeding_center": "CSIR New Millennium Indian Technology Leadership Initiative (NMITLI)",
+        "characteristics": "Standardized high-chemotype lines engineered for reproducible pharmaceutical withanolide ratios"
+      }
+    ]
+  },
+  "classical_ayurvedic_dravyaguna_and_traditional_knowledge": {
+    "dravyaguna_pharmacodynamics": {
+      "rasa_taste": [
+        "Tikta (Bitter)",
+        "Kashaya (Astringent)",
+        "Madhura (Sweet - secondary)"
+      ],
+      "guna_qualities": [
+        "Laghu (Light to digest)",
+        "Snigdha (Unctuous, oily, lubricating)"
+      ],
+      "virya_potency": "Ushna (Hot potency)",
+      "vipaka_post_digestive_taste": "Madhura (Sweet post-digestive transformation)",
+      "prabhava_specific_action": "Balya (Strength promoter) & Rasayana (Rejuvenator of body and mind)"
+    },
+    "dosha_karma_action_on_humors": {
+      "vata_karma": "Vata Shamaka (Potently pacifies vitiated Vata dosha through Snigdha guna and Ushna virya)",
+      "kapha_karma": "Kapha Shamaka (Pacifies vitiated Kapha through Tikta-Kashaya rasa and Ushna virya)",
+      "pitta_karma": "May mildly aggravate Pitta if consumed in excessive doses or during acute inflammatory febrile states due to Ushna virya"
+    },
+    "dhatu_karma_action_on_tissues": {
+      "rasa_dhatu": "Enhances nutrition and metabolic absorption",
+      "mamsa_dhatu": "Brimhana (Muscle tissue bulking and hypertrophy)",
+      "meda_dhatu": "Regulates fat metabolism without increasing morbidity",
+      "asthi_dhatu": "Strengthens bone density and accelerates fracture healing",
+      "majja_dhatu": "Nourishes the nervous system and bone marrow; protects against neurodegeneration",
+      "shukra_dhatu": "Potent Vrishya (Aphrodisiac, spermatogenic, increases sperm count, motility, and ovulatory competence)",
+      "ojas": "Ojavardhaka (Replenishes vital life essence and baseline innate immunity)"
+    },
+    "srotas_karma_action_on_channels": [
+      "Manovaha Srotas (Calms nervous pathways, alleviates mental turmoil and insomnia)",
+      "Shukravaha Srotas (Clears and tones reproductive passages)",
+      "Asthivaha Srotas (Strengthens skeletal channels)",
+      "Majjavaha Srotas (Soothes nerve conduction and spinal pathways)",
+      "Pranavaha Srotas (Relieves bronchospasm and dyspnea in chronic respiratory debility)"
+    ],
+    "classical_treatise_citations": [
+      {
+        "treatise": "Charaka Samhita",
+        "location": "Sutrasthana Ch. 4 (Shadvirechanashatashritiya Adhyaya)",
+        "classification": "Classified under Balya Mahakashaya (10 primary strength promoters), Brihaniya Mahakashaya (10 primary nourishing/bulking herbs), and Madhura Skandha",
+        "shloka_reference": "बल्यानां बृहणीयानां च श्रेष्ठम् (Recognized among the foremost dravyas for vitality and building depleted tissues)"
+      },
+      {
+        "treatise": "Charaka Samhita",
+        "location": "Chikitsasthana Ch. 1 (Rasayana Adhyaya)",
+        "classification": "Prescribed as a master Rasayana drug for anti-aging, longevity, intellectual acuity, and freedom from disease"
+      },
+      {
+        "treatise": "Sushruta Samhita",
+        "location": "Sutrasthana Ch. 38 (Dravyasangrahaniya Adhyaya)",
+        "classification": "Included in Vatasamshamana Varga (Formulations for pacifying neuromuscular disorders) and Urdhvabhagahara Varga"
+      },
+      {
+        "treatise": "Ashtanga Hridaya (Vagbhata)",
+        "location": "Uttaratantra Ch. 39 (Rasayana Vidhi Adhyaya)",
+        "classification": "Celebrated as a prime Vrishya (virilizer) and Medhya (cognitive promoter) dravya"
+      },
+      {
+        "treatise": "Bhavaprakasha Nighantu",
+        "location": "Guduchyadi Varga, Shloka 189-190",
+        "shloka_text": "अश्वगन्धाऽनिलश्लेष्मश्वित्रशोथक्षयापहा । बल्या रसायनी तिक्ता कषायोष्णाऽतिशुक्रला ॥",
+        "english_meaning": "Ashwagandha alleviates Vata, Kapha, Shvitra (vitiligo/skin spots), Shotha (edema/inflammation), and Kshaya (wasting/emaciation). It is Balya (strength-giver), Rasayani (rejuvenator), bitter and astringent in taste, hot in potency, and an extraordinary enhancer of semen and reproductive fluid (Atishukrala)."
+      },
+      {
+        "treatise": "Dhanvantari Nighantu",
+        "location": "Guduchyadi Varga",
+        "description": "Identifies Ashwagandha as Hayahvaya, Turagagandha; specifies its utility in chronic fatigue, musculoskeletal stiffness, and sexual debility"
+      },
+      {
+        "treatise": "Raja Nighantu",
+        "location": "Chandanadi Varga",
+        "description": "Lists 16 botanical synonyms and affirms its curative action in chronic emaciation and consumption"
+      },
+      {
+        "treatise": "Kaiyadeva Nighantu",
+        "location": "Oshadhi Varga",
+        "description": "Elaborates on its tissue-toning properties and its utility in pediatric developmental delay"
+      }
+    ],
+    "classical_indications_roga_karma": [
+      "Daurbalya (Generalized physical weakness, chronic fatigue syndrome)",
+      "Karshya (Severe emaciation, muscle wasting, cachexia)",
+      "Klaibya & Shukradusti (Erectile dysfunction, oligospermia, sexual asthenia)",
+      "Vata Vyadhi (Hemiplegia, paraplegia, sciatica, tremors, Parkinsonian syndromes)",
+      "Amavata & Sandhigata Vata (Rheumatoid arthritis, osteoarthritis, spondylitis)",
+      "Shotha (Edema, inflammatory swellings, localized inflammatory exudates)",
+      "Kasa & Shwasa (Chronic debilitating cough, asthma, emphysematous dyspnea)",
+      "Nidranasha / Anidra (Chronic insomnia, disturbed sleep architecture)",
+      "Chittodvega & Smritibhramsha (Anxiety disorders, cognitive deficits, memory lapse)",
+      "Kshaya (Tuberculosis, pulmonary wasting, post-infectious convalescence)",
+      "Yonidosha (Female reproductive debility, habitual abortion, uterine weakness)"
+    ],
+    "classical_shodhana_purification": {
+      "process": "Though not toxic, classical texts (Bhaishajya Ratnavali) recommend boiling Ashwagandha roots in Godugdha (cow's milk) or a decoction of cow's milk and water until completely absorbed, followed by shade drying. This traditional Shodhana mitigates excessive bitter-pungent irritant fractions, enhances bioavailability of withanolides, and potentiates Medhya (nootropic) and Balya (strengthening) virtues."
+    }
+  },
+  "phytochemistry_and_bioactive_chemical_profile": {
+    "overview": "Withania somnifera contains over 80 chemically characterized secondary metabolites, with steroidal lactones (withanolides) and alkaloids serving as the primary bioactive markers responsible for its multidimensional pharmacological profile.",
+    "major_chemical_classes": [
+      "Steroidal Lactones (Withanolides, Withaphysalins, Withastramonolides)",
+      "Steroidal Lactone Glycosides (Withanosides, Sitoindosides)",
+      "Alkaloids (Piperidine, Tropane, and Pyrazole types)",
+      "Flavonoids and Phenolic Acids",
+      "Phytosterols (Stigmasterol, Beta-sitosterol)",
+      "Free Amino Acids (notably GABA, Tryptophan, Phenylalanine)",
+      "Polysaccharides and Withania Saponins"
+    ],
+    "steroidal_lactones_withanolides": [
+      {
+        "compound_name": "Withaferin A",
+        "chemical_formula": "C28H38O6",
+        "molecular_weight": "470.60 g/mol",
+        "cas_number": "5119-48-2",
+        "plant_part": "Leaves (highest, 1.5–3.0%) and roots (0.05–0.2%)",
+        "pharmacological_profile": "Potent antineoplastic, anti-angiogenic, pro-apoptotic via ROS generation and caspase activation, binds directly to vimentin, inhibits NF-κB and proteasomal degradation"
+      },
+      {
+        "compound_name": "Withanolide A",
+        "chemical_formula": "C28H38O6",
+        "molecular_weight": "470.60 g/mol",
+        "cas_number": "55984-09-3",
+        "plant_part": "Roots (primary marker, 0.1–0.4%)",
+        "pharmacological_profile": "Potent neuroprotective agent, promotes significant neurite outgrowth, regenerates damaged axons, dendrites and synaptic junctions, prevents amyloid-beta neurotoxicity"
+      },
+      {
+        "compound_name": "Withanolide B",
+        "chemical_formula": "C28H38O5",
+        "molecular_weight": "454.60 g/mol",
+        "cas_number": "56973-41-2",
+        "plant_part": "Roots and leaves",
+        "pharmacological_profile": "Anxiolytic, neuro-regenerative, anti-stress modulator"
+      },
+      {
+        "compound_name": "Withanolide D",
+        "chemical_formula": "C28H38O6",
+        "molecular_weight": "470.60 g/mol",
+        "cas_number": "30655-48-2",
+        "plant_part": "Leaves and roots",
+        "pharmacological_profile": "Cytotoxic against various cancer cell lines, immunomodulator"
+      },
+      {
+        "compound_name": "Withanolide E",
+        "chemical_formula": "C28H38O7",
+        "molecular_weight": "486.60 g/mol",
+        "cas_number": "56973-42-3",
+        "plant_part": "Leaves and aerial parts",
+        "pharmacological_profile": "Immunosuppressive on specific antibody synthesis, antifeedant"
+      },
+      {
+        "compound_name": "Withanone",
+        "chemical_formula": "C28H38O6",
+        "molecular_weight": "470.60 g/mol",
+        "cas_number": "27570-38-3",
+        "plant_part": "Roots and leaves",
+        "pharmacological_profile": "Neuroprotective, activates telomerase, blocks viral entry through TMPRSS2 and main protease (Mpro) inhibition, selective cytotoxicity against cancer cells sparing normal cells"
+      },
+      {
+        "compound_name": "12-Deoxywithastramonolide",
+        "chemical_formula": "C28H38O6",
+        "molecular_weight": "470.60 g/mol",
+        "cas_number": "86447-32-7",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Cardioprotective, anti-inflammatory, antioxidant"
+      },
+      {
+        "compound_name": "Withacoagulin",
+        "chemical_formula": "C28H38O6",
+        "molecular_weight": "470.60 g/mol",
+        "cas_number": "85956-82-7",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Anti-inflammatory, attenuates lipopolysaccharide (LPS)-induced macrophage activation"
+      }
+    ],
+    "glycosylated_withanolides_withanosides_and_sitoindosides": [
+      {
+        "compound_name": "Withanoside IV",
+        "chemical_formula": "C40H62O15",
+        "molecular_weight": "782.92 g/mol",
+        "cas_number": "364782-34-3",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Undergoes metabolic hydrolysis to sominone; exhibits remarkable axonal and dendritic outgrowth regeneration, halts neurodegeneration in Alzheimer's and Parkinson's models"
+      },
+      {
+        "compound_name": "Withanoside VI",
+        "chemical_formula": "C40H62O15",
+        "molecular_weight": "782.92 g/mol",
+        "cas_number": "364782-35-4",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Alleviates memory deficits, protects cortical neurons, prevents loss of synaptic markers"
+      },
+      {
+        "compound_name": "Sitoindoside IX",
+        "chemical_formula": "C28H38O6-glucoside derivative",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Adaptogenic, anti-stress, mobilizes antioxidant enzymes SOD and catalase"
+      },
+      {
+        "compound_name": "Sitoindoside X",
+        "chemical_formula": "C28H38O6-glucoside derivative",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Anti-stress, immunostimulatory, promotes phagocytosis and lymphocyte proliferation"
+      },
+      {
+        "compound_name": "Sitoindosides VII & VIII",
+        "plant_part": "Roots",
+        "pharmacological_profile": "Acylsterylglucosides with documented anti-stress, anti-ulcerogenic, and immunomodulatory activity"
+      }
+    ],
+    "alkaloids_total_content_0_13_to_0_31_percent": [
+      {
+        "alkaloid_name": "Withanine",
+        "chemical_structure_type": "Piperidine/tropane alkaloid",
+        "properties": "Major alkaloid of Withania roots; possesses sedative, central nervous system depressant, and hypotensive properties"
+      },
+      {
+        "alkaloid_name": "Somniferine",
+        "chemical_structure_type": "Alkaloid",
+        "properties": "Hypnotic, sleep-inducing, muscle relaxant"
+      },
+      {
+        "alkaloid_name": "Somnine",
+        "chemical_structure_type": "Alkaloid",
+        "properties": "Sedative, mild hypnotic"
+      },
+      {
+        "alkaloid_name": "Tropine & Pseudotropine",
+        "chemical_structure_type": "Tropane alkaloid",
+        "properties": "Cholinergic modulators, smooth muscle relaxants"
+      },
+      {
+        "alkaloid_name": "Cuscohygrine",
+        "chemical_structure_type": "Pyrrolidine alkaloid",
+        "properties": "Mild peripheral vasodilator, antispasmodic"
+      },
+      {
+        "alkaloid_name": "Anaferine & Anahygrine",
+        "chemical_structure_type": "Bis-piperidine alkaloids",
+        "properties": "Sedative and antispasmodic"
+      }
+    ],
+    "flavonoids_phenolics_and_sterols": {
+      "flavonoids": [
+        "Quercetin",
+        "Kaempferol",
+        "Rutin",
+        "Catechin"
+      ],
+      "phenolic_acids": [
+        "Gallic acid",
+        "Caffeic acid",
+        "Chlorogenic acid",
+        "p-Coumaric acid"
+      ],
+      "phytosterols": [
+        "Beta-sitosterol",
+        "Stigmasterol",
+        "Campesterol",
+        "Daucosterol (Beta-sitosterol-d-glucoside)"
+      ]
+    },
+    "free_amino_acids_and_neuroactive_compounds": {
+      "gaba_gamma_aminobutyric_acid": "Significant naturally occurring levels; acts directly upon GABAergic central nervous pathways, conferring intrinsic calming and anxiolytic effects",
+      "tryptophan": "Essential precursor for serotonin and melatonin biosynthesis; underpins mood regulation and sleep stabilization",
+      "phenylalanine_and_tyrosine": "Catecholamine precursors supporting dopamine and noradrenaline synthesis",
+      "glutamate_and_aspartate": "Present as excitatory neurotransmitter precursors"
+    },
+    "mineral_and_elemental_composition": {
+      "iron_fe": "15 mg to 35 mg per 100 g dry root (vital for hematopoiesis and treating nutritional anemia)",
+      "zinc_zn": "2.5 mg to 4.5 mg per 100 g dry root (essential cofactor for spermatogenesis and testosterone synthesis)",
+      "calcium_ca": "200 mg to 350 mg per 100 g",
+      "magnesium_mg": "120 mg to 200 mg per 100 g",
+      "potassium_k": "500 mg to 800 mg per 100 g",
+      "phosphorus_p": "80 mg to 130 mg per 100 g"
+    }
+  },
+  "modern_pharmacology_and_clinical_evidence": {
+    "adaptogenic_and_anti_stress_mechanisms": {
+      "mechanism_of_action": "Modulates the hypothalamic-pituitary-adrenal (HPA) axis; down-regulates elevated corticotropin-releasing hormone (CRH) and serum adrenocorticotropic hormone (ACTH); significantly attenuates stress-induced adrenal cortical hypertrophy and cortisol overproduction; induces protective heat-shock proteins (Hsp70).",
+      "clinical_trial_findings": [
+        "Double-blind, randomized, placebo-controlled clinical trials (64 subjects, 300 mg KSM-66 twice daily for 60 days) demonstrated a 27.9% reduction in serum cortisol levels compared to placebo.",
+        "Significant reduction in Perceived Stress Scale (PSS) score by 44.0% (p < 0.0001).",
+        "Statistically significant reduction on the Hamilton Anxiety Rating Scale (HAM-A) and Depression Anxiety Stress Scale (DASS-21)."
+      ]
+    },
+    "neuroprotection_and_cognitive_enhancement": {
+      "mechanism_of_action": "Inhibits acetylcholinesterase (AChE) enzymatic breakdown; enhances brain-derived neurotrophic factor (BDNF) and nerve growth factor (NGF) mRNA expression in the hippocampus and frontal cortex; Withanoside IV and Withanolide A stimulate neuritic regeneration and synaptic reconstruction; mitigates oxidative stress via up-regulation of superoxide dismutase (SOD) and glutathione peroxidase (GPx); attenuates beta-amyloid (Aβ1-42) oligomerization and tau protein hyperphosphorylation.",
+      "clinical_trial_findings": [
+        "50 adults with Mild Cognitive Impairment (MCI) treated with 300 mg Ashwagandha root extract twice daily for 8 weeks exhibited statistically significant improvements in immediate and general memory on the Wechsler Memory Scale III.",
+        "Marked enhancement in executive function, sustained attention, and information processing speed (p < 0.01)."
+      ]
+    },
+    "anxiolytic_sedative_and_sleep_architecture": {
+      "mechanism_of_action": "Withanolides act as positive allosteric modulators of GABA-A receptors; Triethylene glycol (TEG) and withanolide fractions induce non-rapid eye movement (NREM) sleep and increase delta slow-wave activity without disrupting REM sleep cycles.",
+      "clinical_trial_findings": [
+        "In double-blind RCTs involving healthy individuals and insomnia patients (n=150), 300 mg root extract twice daily for 6 weeks achieved significant reductions in sleep onset latency (SOL), improvements in total sleep time (TST), and sleep efficiency (SE).",
+        "Marked reduction in Pittsburgh Sleep Quality Index (PSQI) scores without report of morning grogginess, rebound insomnia, or physiological dependency."
+      ]
+    },
+    "physical_performance_muscle_strength_and_vo2_max": {
+      "mechanism_of_action": "Increases mitochondrial biogenesis; boosts creatine kinase recovery; enhances oxygen-carrying capacity of blood; down-regulates exercise-induced lactic acid accumulation and inflammatory myokines.",
+      "clinical_trial_findings": [
+        "In an 8-week resistance training trial (n=57 healthy young men), Ashwagandha root extract (300 mg twice daily) resulted in significantly greater muscle strength gains on the bench press (46.0 kg vs 26.4 kg in placebo) and leg extension exercises.",
+        "Significantly greater increase in muscle size of the arms and chest, accompanied by a marked decrease in exercise-induced muscle damage (serum creatine kinase stabilization) and greater percentage reduction in body fat (p < 0.05).",
+        "VO2 max in healthy athletic adults increased significantly by 5.6% to 12.5% across multiple trials."
+      ]
+    },
+    "endocrinology_testosterone_and_male_reproductive_health": {
+      "mechanism_of_action": "Stimulates the pituitary-gonadal axis by elevating luteinizing hormone (LH); stimulates Leydig cell steroidogenesis; significantly suppresses seminal lipid peroxidation and reactive oxygen species (ROS); restores seminal zinc, copper, and fructose concentrations; preserves sperm DNA integrity.",
+      "clinical_trial_findings": [
+        "In clinical trials with oligospermic and infertile men (n=180), standardized Ashwagandha root extract (675 mg/day in three divided doses for 90 days) produced a 167% increase in sperm count (from 9.59 to 25.61 million/ml), a 57% increase in sperm motility, and a 53% increase in semen volume.",
+        "Serum total testosterone increased by an average of 15% to 17% in healthy men undergoing resistance training and up to 40% in infertile men with low baseline testosterone levels."
+      ]
+    },
+    "female_sexual_health_and_hormonal_balance": {
+      "mechanism_of_action": "Alleviates psychogenic stress and hypercortisolemia; enhances neuroendocrine signaling; improves pelvic vascularization and endothelial nitric oxide bioavailability.",
+      "clinical_trial_findings": [
+        "In a randomized, double-blind, placebo-controlled study with 50 women, 300 mg of root extract twice daily for 8 weeks resulted in significant improvement in the Female Sexual Function Index (FSFI) across desire, arousal, lubrication, orgasm, and sexual satisfaction domains (p < 0.001)."
+      ]
+    },
+    "thyroid_function_modulation": {
+      "mechanism_of_action": "Directly stimulates thyroid gland peroxidase activity; stimulates thyroidal release of thyroxine (T4) and increases peripheral 5'-deiodinase conversion of T4 to triiodothyronine (T3).",
+      "clinical_trial_findings": [
+        "In a randomized, double-blind trial with 50 subclinical hypothyroid patients, 600 mg of root extract daily for 8 weeks normalized thyroid indices: significant elevation in serum T3 (41.5%) and T4 (19.6%), alongside a significant decrease in elevated serum thyroid-stimulating hormone (TSH) by 17.4% (p < 0.001)."
+      ]
+    },
+    "immunomodulation_and_anti_inflammatory_actions": {
+      "mechanism_of_action": "Inhibits NF-κB nuclear translocation; down-regulates pro-inflammatory cytokines including TNF-α, IL-1β, IL-6, and inducible nitric oxide synthase (iNOS); activates natural killer (NK) cells; stimulates cell-mediated immunity through CD4+ and CD8+ T-lymphocyte proliferation; increases macrophage phagocytic index.",
+      "clinical_trial_findings": [
+        "In human trials, administration of 300 mg Ashwagandha extract daily led to a 36% reduction in high-sensitivity C-reactive protein (hs-CRP) levels and a statistically significant up-regulation of circulating NK cell counts and immunoglobulins (IgG, IgM)."
+      ]
+    },
+    "antineoplastic_and_chemosensitizing_properties_withaferin_a": {
+      "mechanism_of_action": [
+        "Generates elevated levels of intracellular Reactive Oxygen Species (ROS) specifically within tumor cells, leading to mitochondrial membrane potential collapse",
+        "Directly covalently binds to vimentin, intermediate filaments, and annexin II, inducing cytoskeletal collapse and cell cycle arrest at G2/M phase",
+        "Activates executioner Caspase-3, Caspase-7, and Caspase-9 cascades, inducing apoptosis",
+        "Inhibits angiogenesis via down-regulation of Vascular Endothelial Growth Factor (VEGF) and basic Fibroblast Growth Factor (bFGF)",
+        "Down-regulates STAT3, Notch-1, and AKT/mTOR survival pathways, overcoming multi-drug resistance (MDR) and sensitizing tumors to cisplatin, doxorubicin, and paclitaxel"
+      ],
+      "in_vitro_and_in_vivo_models": "Demonstrated efficacy in pre-clinical studies across lung carcinoma (A549), breast cancer (MCF-7, MDA-MB-231), prostate carcinoma (PC-3, LNCaP), glioblastoma (U87MG), colon adenocarcinoma (HCT-116), and melanoma."
+    },
+    "metabolic_and_cardiovascular_support": {
+      "mechanism_of_action": "Enhances glucose uptake in skeletal muscle cells via GLUT-4 translocation; improves insulin sensitivity; down-regulates hepatic HMG-CoA reductase; promotes lipid clearance; enhances endothelial nitric oxide production to reduce peripheral arterial resistance.",
+      "clinical_trial_findings": [
+        "Significant reductions in fasting blood glucose (average 12–15 mg/dL decrease).",
+        "Reductions in serum total cholesterol (8–10%), low-density lipoprotein (LDL-C), and triglycerides, accompanied by moderate elevations in high-density lipoprotein (HDL-C)."
+      ]
+    }
+  },
+  "pharmacopoeial_specifications_and_quality_standards": {
+    "compendial_recognition": [
+      "Ayurvedic Pharmacopoeia of India (API Part I, Vol. I, Monograph 10: Asvagandha, pp. 19–20)",
+      "Indian Pharmacopoeia (IP 2022 - Withania Root Monograph)",
+      "United States Pharmacopeia - National Formulary (USP43-NF38: Ashwagandha Root and Extract Monographs)",
+      "British Pharmacopoeia (BP 2022)",
+      "World Health Organization (WHO Monographs on Selected Medicinal Plants, Vol. 4, Radix Withaniae, pp. 373–391)",
+      "European Medicines Agency (EMA/HMPC Community Herbal Monograph)"
+    ],
+    "physicochemical_constants_api_standards": {
+      "foreign_organic_matter": "Not more than 2.0% w/w",
+      "total_ash": "Not more than 7.0% w/w",
+      "acid_insoluble_ash": "Not more than 1.0% w/w",
+      "alcohol_soluble_extractive_90_percent_ethanol": "Not less than 15.0% w/w",
+      "water_soluble_extractive": "Not less than 20.0% w/w",
+      "loss_on_drying_moisture": "Not more than 10.0% w/w"
+    },
+    "assay_thresholds_active_markers": {
+      "total_withanolides_content": "Not less than 0.5% w/w calculated on dried root basis (measured as Withaferin A and Withanolide A by validated HPLC/HPTLC method)",
+      "total_alkaloids_content": "Not less than 0.2% w/w by gravimetric / spectrophotometric assay"
+    },
+    "heavy_metal_permissible_limits_who_and_api": {
+      "lead_pb": "Not more than 10.0 ppm (mg/kg)",
+      "cadmium_cd": "Not more than 0.3 ppm (mg/kg)",
+      "arsenic_as": "Not more than 3.0 ppm (mg/kg)",
+      "mercury_hg": "Not more than 1.0 ppm (mg/kg)"
+    },
+    "microbial_contamination_limits": {
+      "total_aerobic_microbial_count_tamc": "Not more than 10^5 CFU/g",
+      "total_yeast_and_mold_count_tymc": "Not more than 10^3 CFU/g",
+      "escherichia_coli": "Absent in 1.0 g",
+      "salmonella_species": "Absent in 10.0 g",
+      "staphylococcus_aureus": "Absent in 1.0 g",
+      "pseudomonas_aeruginosa": "Absent in 1.0 g"
+    },
+    "mycotoxin_and_aflatoxin_limits": {
+      "total_aflatoxins_b1_b2_g1_g2": "Not more than 10.0 ppb (µg/kg)",
+      "aflatoxin_b1": "Not more than 2.0 ppb (µg/kg)",
+      "ochratoxin_a": "Not more than 20.0 ppb (µg/kg)"
+    },
+    "pesticide_residues_compliance": "Must comply with USP <561> and European Pharmacopoeia limits for organochlorine, organophosphorus, and pyrethroid multi-residue panels analyzed via GC-MS/MS and LC-MS/MS."
+  },
+  "intellectual_property_patents_tkdl_and_regulatory_landscape": {
+    "indian_patents_act_1970_statutory_bars": {
+      "section_3p_traditional_knowledge_exclusion": {
+        "statutory_text": "An invention which in effect is traditional knowledge or which is an aggregation or duplication of known properties of traditionally known component or components is non-patentable.",
+        "application_to_ashwagandha": "Direct compositions of raw Ashwagandha roots, traditional hydroalcoholic extracts, simple churnas, or decoctions claimed for classical indications (stress, vitality, aphrodisiac, joint pain, memory, anti-aging) are strictly barred under Section 3(p) as anticipated prior art documented in classical Ayurvedic texts."
+      },
+      "section_3e_mere_admixture_exclusion": {
+        "statutory_text": "A substance obtained by a mere admixture resulting only in the aggregation of the properties of the components thereof or a process for producing such substance.",
+        "application_to_ashwagandha": "Polyherbal formulations combining Ashwagandha with other traditional herbs (e.g. Brahmi, Shilajit, Shatavari, Safed Musli) cannot be patented unless non-obvious synergistic efficacy is experimentally demonstrated (e.g., Combination Index CI < 1.0 using Chou-Talalay or isobologram analysis)."
+      },
+      "section_3d_known_substance_efficacy_bar": {
+        "statutory_text": "The mere discovery of a new form of a known substance which does not result in the enhancement of the known efficacy of that substance is not patentable.",
+        "application_to_ashwagandha": "Novel salt forms, polymorphic forms, or extracts of Withania withanolides must prove enhanced therapeutic efficacy over the known classical baseline."
+      }
+    },
+    "traditional_knowledge_digital_library_tkdl_prior_art": {
+      "organization": "Joint initiative of Council of Scientific & Industrial Research (CSIR) and Ministry of Ayush, Government of India",
+      "tkdl_corpus_coverage": "Translates and classifies thousands of classical formulation shlokas from Charaka Samhita, Sushruta Samhita, and Bhavaprakasha Nighantu into 5 international languages (English, German, French, Spanish, Japanese) under the Traditional Knowledge Resource Classification (TKRC).",
+      "access_agreements": "Direct operational agreements with the European Patent Office (EPO), United States Patent and Trademark Office (USPTO), Japan Patent Office (JPO), Canadian Intellectual Property Office (CIPO), and IP Australia to perform pre-grant examination searches.",
+      "landmark_tkdl_defenses_ashwagandha": [
+        "EPO Patent Application EP 1993382: Pre-grant opposition filed by TKDL citing Charaka Samhita and Bhavaprakasha Nighantu against claims for Withania somnifera composition for treatment of arthritis; patent applicant substantially amended claims to avoid public domain traditional prior art.",
+        "EPO Patent Application EP 2408466: Invalidation reference provided by TKDL citing traditional knowledge of Withania somnifera for cognitive enhancement and neuroprotection.",
+        "USPTO Patent Application US 12/282,143: Third-party observations by CSIR-TKDL invalidating broad claims regarding Ashwagandha extracts for stress and skin disorders."
+      ]
+    },
+    "biological_diversity_act_bda_2002_and_2023_amendment": {
+      "section_6_mandatory_nba_approval": "Requires mandatory prior approval from the National Biodiversity Authority (NBA) before applying for any Intellectual Property Right (IPR) inside or outside India for any invention based on any biological resource obtained from India.",
+      "form_iii_filing": "Applicants must file Form III with NBA and execute an Access and Benefit Sharing (ABS) agreement providing 0.1% to 0.5% royalty or milestone-based sharing with local biodiversity management committees (BMCs).",
+      "penal_consequences": "Filing foreign patents without NBA Form III approval is punishable with imprisonment up to 5 years and severe financial penalties under Section 55."
+    },
+    "wipo_gratk_treaty_2024": {
+      "treaty_name": "WIPO Treaty on Intellectual Property, Genetic Resources and Associated Traditional Knowledge (adopted Geneva, May 24, 2024)",
+      "mandatory_disclosure_of_origin": "Article 3 obligates patent applicants globally to disclose the country of origin of genetic resources (e.g., India for Withania somnifera) and the indigenous community source if the claimed invention is based on traditional knowledge.",
+      "global_significance": "Prevents biopiracy and wrongful granting of patents on indigenous Ashwagandha formulations in foreign jurisdictions."
+    },
+    "drugs_and_cosmetics_act_1940_and_rules_1945": {
+      "rule_158b_licensing": "Mandatory regulatory guidelines for the grant of manufacturing licenses for Ayurvedic Patent & Proprietary (P&P) and Classical medicines containing Ashwagandha under Form 25D.",
+      "safety_and_efficacy_requirements": "Published scientific data on safety and efficacy required for novel extracts; classical formulations require strict conformity to the Ayurvedic Pharmacopoeia of India."
+    },
+    "patent_classification_codes_ipc_and_cpc": {
+      "ipc_a61k_36_815": "Medicinal preparations containing Solanaceae, e.g. Withania (Ashwagandha)",
+      "ipc_a61k_31_585": "Medicinal preparations containing lactones of the steroid series (Withanolides)",
+      "ipc_a61p_25_22": "Anxiolytics, sedatives, stress-relieving agents",
+      "ipc_a61p_25_28": "Drugs for disorders of the nervous system, e.g. Alzheimer's, nootropics",
+      "ipc_a61p_35_00": "Antineoplastic / anticancer agents",
+      "ipc_a61p_37_04": "Immunostimulants",
+      "ipc_a61p_15_08": "Male fertility and reproductive stimulants",
+      "ipc_a61p_19_02": "Anti-arthritic agents"
+    },
+    "patentable_white_space_avenues_defensible_inventions": [
+      {
+        "avenue": "Novel Drug Delivery Systems (NDDS)",
+        "description": "Phytosomes, liposomal nanocarriers, solid lipid nanoparticles (SLNs), and self-microemulsifying drug delivery systems (SMEDDS) that markedly improve the oral bioavailability and blood-brain barrier (BBB) penetration of withanolides."
+      },
+      {
+        "avenue": "Specific Non-Obvious Fractionation Ratios",
+        "description": "Supercritical fluid (scCO2) extraction isolating non-classical stoichiometric ratios of Withanolide A to Withaferin A (e.g., > 10:1 ratio ensuring neuro-regeneration without cytotoxic apoptosis)."
+      },
+      {
+        "avenue": "Synergistic Bioavailability Enhancement",
+        "description": "Formulations combining standardized Withania extracts with bioavailability bio-enhancers (e.g. Piperine at specific molar ratios or standardized Zingiber officinale fractions) supported by clinical pharmacokinetic area-under-the-curve (AUC) data."
+      },
+      {
+        "avenue": "Semisynthetic Derivatives",
+        "description": "Novel chemical modifications of the withanolide core scaffold (e.g., 4-beta-hydroxy-withanolide derivatives) demonstrating new therapeutic indications (e.g. targeted kinase inhibition)."
+      }
+    ]
+  },
+  "classical_formulations_commercial_extracts_and_posology": {
+    "classical_ayurvedic_formulations": [
+      {
+        "formulation_name": "Ashwagandharishta",
+        "dosage_form": "Sandhana Kalpana (Fermented classical herbal wine / arishta)",
+        "reference_text": "Bhaishajya Ratnavali, Murccha Rogadhikara",
+        "key_ingredients": "Ashwagandha (Withania somnifera), Musli, Manjistha, Haritaki, Bibhitaki, Amalaki, Nisha, Daruharidra, Yashtimadhu, Rasna, Vidari, Dhataki, Draksha, Honey, Jaggery",
+        "therapeutic_indications": "Murchha (Syncope/fainting), Apasmara (Epilepsy), Shosha (Wasting disease), Karshya (Severe emaciation), Vata Vyadhi (Neurological disorders), Insomnia",
+        "classical_dose": "15 ml to 30 ml with an equal quantity of water twice daily after meals"
+      },
+      {
+        "formulation_name": "Ashwagandhadi Lehya (Avaleha)",
+        "dosage_form": "Avaleha Kalpana (Semi-solid electuary / herbal jam)",
+        "reference_text": "Ayurvedic Formulary of India (AFI Part I)",
+        "key_ingredients": "Ashwagandha root powder, Sariva, Jeeraka, Madhusnuhi, Draksha, Ela, Ghee, Sugar",
+        "therapeutic_indications": "Daurbalya (General physical debility), Karshya (Emaciation), Shukrakshaya (Oligospermia), Post-illness convalescence",
+        "classical_dose": "6 g to 12 g twice daily with warm milk"
+      },
+      {
+        "formulation_name": "Ashwagandhadi Churna",
+        "dosage_form": "Churna Kalpana (Compound herbal powder)",
+        "reference_text": "Bhavaprakasha, Bhaishajya Ratnavali",
+        "key_ingredients": "Ashwagandha, Vidari, Shatavari, Gokshura, Kapikacchu, Mishri (Rock sugar) in equal parts",
+        "therapeutic_indications": "Vrishya (Aphrodisiac), Klaibya (Erectile dysfunction), muscle strengthening, stamina booster",
+        "classical_dose": "3 g to 6 g twice daily with warm cow's milk"
+      },
+      {
+        "formulation_name": "Ashwagandha Ghrita",
+        "dosage_form": "Sneha Kalpana (Medicated clarified butter / ghee)",
+        "reference_text": "Bhaishajya Ratnavali, Kshayarogadhikara",
+        "key_ingredients": "Ashwagandha root decoction and paste cooked with pure cow's milk and Go-Ghrita (cow's ghee)",
+        "therapeutic_indications": "Emaciation, pediatric developmental delays, neuromuscular dystrophy, skeletal weakness, infertility",
+        "classical_dose": "5 g to 10 g twice daily on empty stomach with warm water or milk"
+      },
+      {
+        "formulation_name": "Ashwagandha Taila",
+        "dosage_form": "Taila Kalpana (Medicated herbal oil for Abhyanga / external massage)",
+        "reference_text": "Bhaishajya Ratnavali",
+        "key_ingredients": "Ashwagandha decoction, Sesame oil (Tila Taila), Manjistha, Chandana, Kushta",
+        "therapeutic_indications": "External application for muscle atrophy, hemiplegia, facial palsy, osteoarthritis, chronic backache",
+        "classical_dose": "Applied warm for full-body Abhyanga or localized massage"
+      },
+      {
+        "formulation_name": "Balarishta",
+        "dosage_form": "Fermented arishta",
+        "reference_text": "Bhaishajya Ratnavali, Vatavyadhi Rogadhikara",
+        "key_ingredients": "Bala (Sida cordifolia), Ashwagandha, Dhataki, Guda, Rasna, Gokshura, Lavanga",
+        "therapeutic_indications": "All types of aggravated Vata disorders, hemiplegia, paraplegia, chronic musculoskeletal pain",
+        "classical_dose": "15 ml to 25 ml twice daily with equal quantity of water"
+      },
+      {
+        "formulation_name": "Saraswatarishta",
+        "dosage_form": "Fermented herbal arishta",
+        "reference_text": "Bhaishajya Ratnavali, Rasayanadhikara",
+        "key_ingredients": "Brahmi, Shatavari, Vidari, Ashwagandha, Haritaki, Ushira, Ginger, Pippali, Swarna Makshika / Gold foil",
+        "therapeutic_indications": "Medhya (Cognitive enhancer), memory loss, speech disorders, anxiety, depression",
+        "classical_dose": "15 ml to 25 ml with equal water twice daily"
+      }
+    ],
+    "commercial_standardized_extracts_market_benchmarks": [
+      {
+        "brand_name": "KSM-66 Ashwagandha",
+        "manufacturer": "Ixoreal Biomed Inc.",
+        "standardization": "Standardized to >= 5.0% withanolides by HPLC (root-only extract)",
+        "extraction_process": "Proprietary aqueous green extraction process based on classical milk pre-treatment ('green chemistry' avoiding synthetic organic solvents)",
+        "clinical_validation": "Extensively validated in over 24 published double-blind, randomized, placebo-controlled human clinical trials for stress, cognition, testosterone, endurance, and sleep"
+      },
+      {
+        "brand_name": "Sensoril Ashwagandha",
+        "manufacturer": "Natreon Inc. / Kerry Group",
+        "standardization": "Standardized to >= 10.0% withanolide glycosides, <= 0.5% withaferin A, and >= 32.0% oligosaccharides",
+        "extraction_process": "Patented hydroalcoholic extraction of both roots and leaves (US Patent 6713092)",
+        "clinical_validation": "Clinical studies verifying significant reductions in serum cortisol, C-reactive protein, and cardiovascular stress parameters"
+      },
+      {
+        "brand_name": "Shoden Ashwagandha",
+        "manufacturer": "Arjuna Natural Pvt. Ltd.",
+        "standardization": "Standardized to >= 35.0% withanolide glycosides (highest commercial potency)",
+        "extraction_process": "Purified hydroalcoholic fraction capturing total withanosides and withanolides",
+        "clinical_validation": "Clinical validation in insomnia, chronic fatigue syndrome, and healthy testosterone modulation at low therapeutic doses (120 mg/day)"
+      }
+    ],
+    "recommended_clinical_posology": {
+      "root_powder_churna": "3 g to 6 g daily in divided doses, traditionally administered with warm cow's milk, ghee, or honey",
+      "root_decoction_kwatha": "50 ml to 100 ml daily (prepared by boiling 20 g coarse root powder in 320 ml water reduced to 80 ml)",
+      "standardized_dry_extract_5_percent_withanolides": "300 mg to 600 mg once or twice daily with meals",
+      "high_potency_extract_35_percent_withanolide_glycosides": "120 mg to 240 mg once daily",
+      "anupana_adjuvants": {
+        "warm_cow_milk_dugdha": "Primary classical vehicle (Anupana) for nourishing Shukra, calming Vata, promoting sleep, and building muscle bulk",
+        "clarified_butter_ghrita": "Enhances lipid absorption and penetration across the blood-brain barrier for Medhya (cognitive) effects",
+        "honey_madhu": "Acts as Yogavahi (catalytic vehicle) for deep tissue delivery; balances Kapha",
+        "warm_water_ushnodaka": "Used when managing Amavata (rheumatic disorders) and sluggish digestion"
+      }
+    }
+  },
+  "safety_toxicology_contraindications_and_drug_interactions": {
+    "toxicology_and_safety_margin": {
+      "acute_toxicity_ld50": "Oral acute LD50 in mice and rats established at > 2000 mg/kg body weight (OECD 423 guidelines); classified as Category 5 / practically non-toxic",
+      "sub_chronic_and_chronic_toxicity": "90-day and 180-day repeated-dose oral toxicity studies in rodents at doses up to 1000 mg/kg/day demonstrated no treatment-related mortality, hematological abnormalities, or histopathological lesions in vital organs (liver, kidneys, heart, brain, gonads)",
+      "genotoxicity_and_mutagenicity": "Ames bacterial reverse mutation assay and in-vivo mammalian micronucleus tests confirmed absence of mutagenic or clastogenic potential"
+    },
+    "adverse_effects_and_overdose_symptoms": {
+      "mild_side_effects": "Infrequent and transient: mild gastrointestinal upset, epigastric burning, nausea, loose stools (due to bitter-pungent fraction), drowsiness",
+      "excessive_overdose_manifestations": "Ingestion of massive doses (> 15 g powder/day) may precipitate acute abdominal cramping, hyperacidity, diarrhea, vomiting, and excessive sedation"
+    },
+    "contraindications": [
+      {
+        "condition": "Pregnancy",
+        "rationale": "Strictly contraindicated during pregnancy. Classical Ayurvedic texts caution against high doses, and pre-clinical animal studies note potential spasmogenic and abortifacient actions on uterine musculature."
+      },
+      {
+        "condition": "Lactation / Breastfeeding",
+        "rationale": "Insufficient long-term human safety data regarding neonatal exposure through breast milk; professional supervision required."
+      },
+      {
+        "condition": "Hyperthyroidism / Thyrotoxicosis",
+        "rationale": "Ashwagandha stimulates endogenous T3 and T4 synthesis and secretion; may exacerbate elevated thyroid hormone levels in patients with Graves' disease or toxic multinodular goiter."
+      },
+      {
+        "condition": "Active Autoimmune Diseases (SLE, Multiple Sclerosis, Active Rheumatoid Arthritis flare)",
+        "rationale": "Its potent immunostimulatory properties (activating CD4+, CD8+ T-cells and NK cells) could theoretically stimulate autoimmune reactions during acute exacerbations."
+      },
+      {
+        "condition": "Scheduled Major Surgery",
+        "rationale": "Possesses additive central nervous system depressant activity; must be discontinued at least 2 weeks prior to elective surgical procedures requiring general anesthesia."
+      }
+    ],
+    "drug_herb_interactions": [
+      {
+        "drug_class": "Sedatives & Central Nervous System Depressants (Benzodiazepines, Barbiturates, Zolpidem, Alcohol)",
+        "interaction_type": "Pharmacodynamic Synergism",
+        "clinical_effect": "Ashwagandha's GABAergic and withanine-mediated CNS depressant effects may potentiate sedation, leading to prolonged drowsiness and motor impairment."
+      },
+      {
+        "drug_class": "Thyroid Hormone Replacements (Levothyroxine, Liothyronine)",
+        "interaction_type": "Pharmacodynamic Synergism",
+        "clinical_effect": "Additive stimulation of serum T3/T4 may necessitate downward adjustment of synthetic thyroid medication dosages to avoid iatrogenic hyperthyroidism."
+      },
+      {
+        "drug_class": "Immunosuppressive Agents (Cyclosporine, Tacrolimus, Azathioprine, High-dose Systemic Corticosteroids)",
+        "interaction_type": "Pharmacodynamic Antagonism",
+        "clinical_effect": "Ashwagandha's macrophage-activating and lymphocyte-stimulating activities may directly counteract the therapeutic efficacy of immunosuppressive drugs in organ transplant recipients."
+      },
+      {
+        "drug_class": "Oral Antidiabetic Drugs & Insulin (Metformin, Glimepiride, SGLT2 Inhibitors)",
+        "interaction_type": "Pharmacodynamic Synergism",
+        "clinical_effect": "Additive hypoglycemic action via enhanced GLUT-4 translocation; close monitoring of blood glucose required to prevent hypoglycemia."
+      },
+      {
+        "drug_class": "Antihypertensive Medications (ACE Inhibitors, Beta Blockers, ARBs)",
+        "interaction_type": "Pharmacodynamic Synergism",
+        "clinical_effect": "Mild autonomic calming and vasodilatory actions may produce additive blood-pressure-lowering effects; monitor blood pressure."
+      }
+    ]
+  },
+  "comparative_botanical_and_pharmacological_differentiation": {
+    "differentiation_from_withania_coagulans_paneer_dodi": {
+      "botanical_species": "Withania coagulans (Stocks) Dunal",
+      "common_name": "Paneer Dodi, Indian Rennet, Vegetable Rennet",
+      "morphological_differences": "Shrub with smaller rigid greyish leaves and yellow-brown berries containing active milk-coagulating proteolytic enzymes (withacoagulin enzymes)",
+      "chemical_differences": "Rich in coagulins and coagulanolides; lacks significant concentrations of Withanolide A and Withaferin A",
+      "primary_traditional_use": "Direct coagulant for making cheese; widely used for treating diabetes mellitus (Prameha); lacks the Rasayana (rejuvenator), Balya (virilizer), and neuroprotective properties of Withania somnifera",
+      "odor_difference": "Lacks the characteristic horse-like aroma of Withania somnifera roots"
+    },
+    "differentiation_from_panax_ginseng_korean_ginseng": {
+      "botanical_species": "Panax ginseng C.A. Mey.",
+      "botanical_family": "Araliaceae (Ivy / Ginseng family) vs. Solanaceae for Ashwagandha",
+      "active_markers": "Ginsenosides (Triterpenoid saponins) vs. Withanolides (Steroidal lactones)",
+      "nature_of_adaptogenic_action": "Stimulating, thermogenic, energizing adaptogen (may induce hypertension, insomnia, irritability in sensitive individuals) vs. Ashwagandha which is a calming, anxiolytic, neuro-stabilizing adaptogen that promotes restorative sleep and nervous tranquility",
+      "geographic_habitat": "Cool temperate forested mountains of Northeast Asia vs. dry semi-arid subtropical plains and hills of India"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased selection:bg-emerald-200 selection:text-emerald-950;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Inter', sans-serif;
+  }
+}
+
+/* Custom crisp scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* User Portal Ambient Mesh Canvas */
+.user-mesh-bg {
+  background-color: #f7faf8;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.08) 0px, transparent 45%),
+    radial-gradient(at 100% 0%, rgba(20, 184, 166, 0.07) 0px, transparent 40%),
+    radial-gradient(at 50% 100%, rgba(245, 158, 11, 0.04) 0px, transparent 45%),
+    radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.05) 0px, transparent 40%);
+  background-attachment: fixed;
+}
+
+/* Admin Obsidian Cyber Canvas */
+.admin-mesh-bg {
+  background-color: #030712;
+  background-image: 
+    radial-gradient(at 50% 0%, rgba(16, 185, 129, 0.12) 0px, transparent 60%),
+    radial-gradient(at 90% 10%, rgba(6, 182, 212, 0.08) 0px, transparent 50%),
+    radial-gradient(at 10% 30%, rgba(99, 102, 241, 0.06) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(16, 185, 129, 0.06) 0px, transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Glass and card utilities for Innovator (User) */
+.gov-card {
+  @apply bg-white/95 backdrop-blur-sm border border-emerald-950/10 rounded-2xl transition-all duration-300;
+  box-shadow: 0 4px 20px -4px rgba(16, 185, 129, 0.05), 0 2px 6px -2px rgba(0, 0, 0, 0.03);
+}
+.gov-card:hover {
+  box-shadow: 0 10px 30px -6px rgba(16, 185, 129, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.gov-card-interactive {
+  @apply bg-white/95 backdrop-blur-sm border border-slate-200/90 rounded-2xl transition-all duration-200;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+.gov-card-interactive:hover {
+  border-color: rgba(16, 185, 129, 0.5);
+  box-shadow: 0 10px 30px -6px rgba(16, 185, 129, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+}
+
+/* Glass and card utilities for Regulatory Admin */
+.admin-card {
+  @apply bg-[#0b1222]/80 backdrop-blur-md border border-slate-800/90 rounded-2xl shadow-xl transition-all duration-300 text-slate-100;
+}
+.admin-card:hover {
+  border-color: rgba(51, 65, 85, 0.8);
+}
+
+.admin-card-interactive {
+  @apply bg-[#0b1222]/80 backdrop-blur-md border border-slate-800/80 rounded-2xl shadow-lg transition-all duration-200 text-slate-100;
+}
+.admin-card-interactive:hover {
+  border-color: rgba(16, 185, 129, 0.4);
+  box-shadow: 0 0 20px -3px rgba(16, 185, 129, 0.2);
+}
+
+/* Pill Badges */
+.badge-source {
+  @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-200/80 hover:bg-emerald-100/80 hover:border-emerald-300 transition-colors cursor-pointer shadow-sm;
+}
+
+.badge-statutory {
+  @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-50 text-amber-900 border border-amber-200/80 shadow-sm;
+}
+
+@layer utilities {
+  .shadow-card-soft {
+    box-shadow: 0 4px 20px -4px rgba(16, 185, 129, 0.05), 0 2px 6px -2px rgba(0, 0, 0, 0.03);
+  }
+  .shadow-card-hover {
+    box-shadow: 0 10px 30px -6px rgba(16, 185, 129, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+  }
+}
+
+/* Seamless Bhashini/Google Translate UI Normalization */
+.goog-te-banner-frame.skiptranslate,
+iframe.goog-te-banner-frame,
+.goog-te-gadget-simple,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+font {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

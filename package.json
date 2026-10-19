@@ -1,0 +1,23 @@
+{
+  "name": "ip-sakti-sahayak-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AYUNOVA (IP-SAKTI Sahayak) - AI Assistant for Ayurveda IP & Regulatory Guidance",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "cd backend && python run.py",
+    "build": "npm --prefix frontend run build",
+    "install:all": "npm --prefix frontend install && cd backend && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "ayurveda",
+    "ip-sakti",
+    "sih2026",
+    "rag",
+    "fastapi",
+    "react"
+  ],
+  "author": "AYUNOVA Team",
+  "license": "MIT"
+}
