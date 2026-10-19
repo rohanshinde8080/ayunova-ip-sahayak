@@ -12,7 +12,15 @@ import logging
 import urllib.request
 from typing import List, Dict, Any, Optional, cast
 
-from langchain_core.tools import tool
+try:
+    from langchain_core.tools import tool
+except ImportError:
+    def tool(*args, **kwargs):
+        def decorator(fn):
+            return fn
+        if args and callable(args[0]):
+            return args[0]
+        return decorator
 
 from app.core.config import settings
 from app.core.database import SessionLocal

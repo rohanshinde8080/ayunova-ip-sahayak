@@ -6,7 +6,12 @@ statutory citations, Neo4j subgraphs, Tavily live web sources, and rubric audits
 
 import app.core.compat  # noqa: F401
 from typing import TypedDict, Optional, List, Dict, Any
-from deepagents.graph import DeepAgentState
+
+try:
+    from deepagents.graph import DeepAgentState
+except (ImportError, Exception):
+    class DeepAgentState(dict):  # type: ignore
+        pass
 
 
 class AyushDeepAgentState(DeepAgentState, total=False):
