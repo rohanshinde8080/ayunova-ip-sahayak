@@ -383,24 +383,10 @@ The user should see the direct answer first, comprehensive technical & statutory
 
 
 from pydantic import Field
-try:
-    from langchain_core.language_models.chat_models import BaseChatModel
-    from langchain_core.messages import AIMessage, BaseMessage
-    from langchain_core.outputs import ChatResult, ChatGeneration
-    from langchain_core.runnables import RunnableBinding
-except (ImportError, Exception):
-    class BaseChatModel:  # type: ignore
-        def __init__(self, **kwargs): pass
-    class AIMessage:  # type: ignore
-        def __init__(self, content="", **kwargs): self.content = content
-    class BaseMessage:  # type: ignore
-        pass
-    class ChatResult:  # type: ignore
-        def __init__(self, generations=None, **kwargs): self.generations = generations or []
-    class ChatGeneration:  # type: ignore
-        def __init__(self, message=None, **kwargs): self.message = message
-    class RunnableBinding:  # type: ignore
-        def __init__(self, bound=None, kwargs=None): self.bound = bound; self.kwargs = kwargs or {}
+from langchain_core.language_models.chat_models import BaseChatModel
+from langchain_core.messages import AIMessage, BaseMessage
+from langchain_core.outputs import ChatResult, ChatGeneration
+from langchain_core.runnables import RunnableBinding
 
 
 class OfflineAyushChatModel(BaseChatModel):
